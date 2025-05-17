@@ -1,0 +1,107 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+.footer {
+  --ifm-footer-background-color: var(--ifm-navbar-background-color);
+  --ifm-footer-link-color: 1;
+  --ifm-footer-title-color: 1;
+  /* Placeholders here for docusaurus to do its magic. */
+}
+
+.footer__links {
+  display: flex !important;
+  justify-content: center !important;
+  gap: 80px;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.footer__col {
+  min-width: 150px;
+  text-align: center;
+}
+
+:root {
+  --ifm-color-primary: black;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --ifm-link-hover-color: gray;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #FFF;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.step-list {
+  counter-reset: step;
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+  position: relative;
+}
+
+.step-list li {
+  counter-increment: step;
+  position: relative;
+  padding-left: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--ifm-font-color-base);
+}
+
+.step-list li::before {
+  content: counter(step);
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #3c3d41;
+  color: #fff;
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 0.9rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.step-list li:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  left: 0.85rem;
+  top: 1.8rem;
+  width: 2px;
+  height: calc(100% - 1.8rem);
+  background: #3c3d41;
+  opacity: 0.5;
+}
+
+[data-theme='light'] .step-list li::before {
+  background-color: #f0f0f0;
+  color: #111;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='light'] .step-list li:not(:last-child)::after {
+  background: #ddd;
+  opacity: 1;
+}
