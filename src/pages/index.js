@@ -4,71 +4,72 @@ import Link from '@docusaurus/Link';
 import styles from './index.module.css';
 
 export default function Home() {
-  const quickLinks = [
-    {
-      title: 'Basics',
-      emoji: '📖',
-      to: '/docs/Basics/Getting Started',
-      description:
-        'Learn about firmware updates, how to set up the BLEShark Nano, and how to charge it.'
-    },
-    {
-      title: 'Pentesting',
-      emoji: '📡',
-      to: '/docs/Pentesting/BLESpam',
-      description:
-        'Explore the pentesting features on the BLEShark Nano.'
-    },
-    {
-      title: 'Apps',
-      emoji: '📲',
-      to: '/docs/Apps/Media Controls',
-      description:
-        'Discover and learn how to use the apps on the BLEShark Nano.'
-    },
-    {
-      title: 'Infrared',
-      emoji: '📺',
-      to: '/docs/Infrared/Remote',
-      description:
-        'Capture and emulate IR remotes used in TVs, sound systems, and more.'
-    },
-    {
-      title: 'Bad-BT',
-      emoji: '😈',
-      to: '/docs/Bad-BT',
-      description: 
-        'Learn how to use the Bad-BT feature to emulate a keyboard that sends commands.'
-    },
-    {
-      title: 'Settings',
-      emoji: '⚙️',
-      to: '/docs/Settings',
-      description: 
-        'Tweak each and every configuration to make the device perfect for you.'
-    },
-    {
-      title: 'Developers',
-      emoji: '🖥️',
-      to: '/docs/Developers/Captive Portal',
-      description: 
-        'All the information for developers to create captive portals.' 
-    },
-    {
-      title: 'Games',
-      emoji: '👾',
-      to: '/docs/Games',
-      description:
-        'How to play the games: Flappy Bird, Invaders, Trex, and more.'
-    },
-    {
-      title: 'Misc',
-      emoji: '🔌',
-      to: '/docs/Misc/Emergency Mode',
-      description:
-        'All the rest - including IR Remote Shortcuts, Emergency Mode, and more.'
-    },
-  ];
+  
+const quickLinks = [
+  {
+    title: 'Basics',
+    emoji: '📖',
+    to: '/docs/basics/getting-started',
+    description:
+      'Learn about firmware updates, how to set up the BLEShark Nano, and how to charge it.'
+  },
+  {
+    title: 'Pentesting',
+    emoji: '📡',
+    to: '/docs/pentesting/blespam',
+    description:
+      'Explore the pentesting features on the BLEShark Nano.'
+  },
+  {
+    title: 'Apps',
+    emoji: '📲',
+    to: '/docs/apps/media-controls',
+    description:
+      'Discover and learn how to use the apps on the BLEShark Nano.'
+  },
+  {
+    title: 'Infrared',
+    emoji: '📺',
+    to: '/docs/infrared/remote',
+    description:
+      'Capture and emulate IR remotes used in TVs, sound systems, and more.'
+  },
+  {
+    title: 'Bad-BT',
+    emoji: '😈',
+    to: '/docs/bad-bt',
+    description: 
+      'Learn how to use the Bad-BT feature to emulate a keyboard that sends commands.'
+  },
+  {
+    title: 'Settings',
+    emoji: '⚙️',
+    to: '/docs/settings',
+    description: 
+      'Tweak each and every configuration to make the device perfect for you.'
+  },
+  {
+    title: 'Developers',
+    emoji: '🖥️',
+    to: '/docs/developers/captive-portal',
+    description: 
+      'All the information for developers to create captive portals.' 
+  },
+  {
+    title: 'Games',
+    emoji: '👾',
+    to: '/docs/games',
+    description:
+      'How to play the games: Flappy Bird, Invaders, Trex, and more.'
+  },
+  {
+    title: 'Misc',
+    emoji: '🔌',
+    to: '/docs/misc/emergency-mode',
+    description:
+      'All the rest - including IR Remote Shortcuts, Emergency Mode, and more.'
+  },
+];
 
   return (
     <Layout

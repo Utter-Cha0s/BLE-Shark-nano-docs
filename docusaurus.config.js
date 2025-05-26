@@ -38,6 +38,20 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            from: '/start',
+            to: '/docs/basics/getting-started',
+          },
+        ],
+      },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -60,57 +74,40 @@ const config = {
         ],
       },
 
-footer: {
-  style: 'dark',
-  links: [
-    {
-      title: 'Company',
-      items: [
-        {
-          label: 'Website',
-          href: 'https://infishark.com',
-        },
-        {
-          label: 'Shop',
-          href: 'https://infishark.com/products/bleshark-nano',
-        },
-        {
-          label: 'News',
-          href: 'https://infishark.com/blogs/news',
-        },
-      ],
-    },
-    {
-      title: 'Connect',
-      items: [
-        {
-          label: 'GitHub',
-          href: 'https://github.com/infishark/nano-docs',
-        },
-        {
-          label: 'Instagram',
-          href: 'https://instagram.com/infishark',
-        },
-        {
-          label: 'YouTube',
-          href: 'https://youtube.com/@infishark',
-        },
-      ],
-    },
-    {
-      title: 'Legal',
-      items: [
-        { label: 'Privacy Policy', href: 'https://infishark.com/policies/privacy-policy' },
-        { label: 'Contact Information', href: 'https://infishark.com/policies/contact-information' },
-        { label: 'Shipping Policy', href: 'https://infishark.com/policies/shipping-policy' },
-        { label: 'Refund Policy', href: 'https://infishark.com/policies/refund-policy' },
-        { label: 'Terms of Service', href: 'https://infishark.com/policies/terms-of-service' },
-        { label: 'Cancellation Policy', href: 'https://infishark.com/policies/subscription-policy' },
-      ],
-    },
-  ],
-  copyright: `© ${new Date().getFullYear()} InfiShark Technologies Inc. All rights reserved.`,
-},
+      footer: {
+        style: 'dark',
+        links: [
+          {
+            title: 'Company',
+            items: [
+              { label: 'Website', href: 'https://infishark.com' },
+              { label: 'Shop', href: 'https://infishark.com/products/bleshark-nano' },
+              { label: 'News', href: 'https://infishark.com/blogs/news' },
+            ],
+          },
+          {
+            title: 'Connect',
+            items: [
+              { label: 'GitHub', href: 'https://github.com/infishark/nano-docs' },
+              { label: 'Instagram', href: 'https://instagram.com/infishark' },
+              { label: 'YouTube', href: 'https://youtube.com/@infishark' },
+            ],
+          },
+          {
+            title: 'Legal',
+            items: [
+              { label: 'Privacy Policy', href: 'https://infishark.com/policies/privacy-policy' },
+              { label: 'Contact Information', href: 'https://infishark.com/policies/contact-information' },
+              { label: 'Shipping Policy', href: 'https://infishark.com/policies/shipping-policy' },
+              { label: 'Refund Policy', href: 'https://infishark.com/policies/refund-policy' },
+              { label: 'Terms of Service', href: 'https://infishark.com/policies/terms-of-service' },
+              { label: 'Cancellation Policy', href: 'https://infishark.com/policies/subscription-policy' },
+            ],
+          },
+        ],
+        copyright: `© ${new Date().getFullYear()} InfiShark Technologies Inc. All rights reserved.`,
+      },
+
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
