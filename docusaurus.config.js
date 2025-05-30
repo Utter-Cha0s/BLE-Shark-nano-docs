@@ -83,6 +83,8 @@ const config = {
               { label: 'Website', href: 'https://infishark.com' },
               { label: 'Shop', href: 'https://infishark.com/products/bleshark-nano' },
               { label: 'News', href: 'https://infishark.com/blogs/news' },
+              { label: 'Docs', href: 'https://docs.infishark.com' },
+              { label: 'Compliance', href: 'https://compliance.infishark.com' },
             ],
           },
           {
