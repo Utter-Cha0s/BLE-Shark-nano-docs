@@ -1,41 +1,21 @@
-# Website
+# InfiShark Docs
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+This is the source code for [docs.infishark.com](https://docs.infishark.com) - the official documentation site for InfiShark products like the BLEShark Nano.
 
-### Installation
+---
 
-```
-$ yarn
-```
+### Run Locally
 
-### Local Development
+Clone this repo, then run `npm install` followed by `npm run start`.
 
-```
-$ yarn start
-```
+---
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+### Contributing
 
-### Build
+Interested in improving the docs? Check out [CONTRIBUTING.md](CONTRIBUTING.md) before submitting a PR.
 
-```
-$ yarn build
-```
+---
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+### About
 
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+This site was built with [Docusaurus 2](https://docusaurus.io).
