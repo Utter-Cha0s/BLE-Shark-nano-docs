@@ -22,6 +22,10 @@ Before starting, ensure your device is fully charged. **Keep the switch ON while
   <li>Click <strong>Connect</strong> to finish the setup.</li>
 </ul>
 
+:::info[Important]
+**Channel 13 & 14 usage is restricted in certain regions and, as a result, the device may not connect to the 2.4GHz network. Channels from 1-12 should function as expected in supported regions.**
+:::
+
 Once connected, your BLEShark Nano will automatically download and install the latest firmware update. You're all set!
 
 :::info[Channel]
