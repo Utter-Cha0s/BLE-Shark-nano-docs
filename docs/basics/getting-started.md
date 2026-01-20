@@ -28,10 +28,6 @@ Before starting, ensure your device is fully charged. **Keep the switch ON while
 
 Once connected, your BLEShark Nano will automatically download and install the latest firmware update. You're all set!
 
-:::info[Channel]
-**Note:** Wi-Fi channels 13 and 14 are restricted or unavailable in certain regions and may not function correctly. For best compatibility, ensure your router is configured to use channels 1–12.
-:::
-
 :::info[Troubleshooting]
 <Tabs>
   <TabItem value="samsung" label="📱 Samsung Users">
