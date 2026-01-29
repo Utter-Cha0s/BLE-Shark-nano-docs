@@ -9,7 +9,7 @@ Extra Settings Mode allows you to configure every feature, upload custom files, 
 <ul className="step-list">
   <li>Open <strong>Extra Settings Mode</strong> from the Settings menu on your BLEShark Nano.</li>
   <li>Connect to the BLEShark Nano’s Wi-Fi hotspot when it appears.</li>
-  <li>A captive portal should appear automatically. If it doesn’t, visit <strong>neverssl.com</strong>.</li>
+  <li>A captive portal should appear automatically. If it doesn’t, visit <a href="https://nano.place"><strong>nano.place</strong></a>.</li>
   <li>Enter the login credentials shown on the BLEShark Nano's screen.</li>
   <li>Tap <strong>Login</strong> - the full settings dashboard will open in your browser.</li>
 </ul>
